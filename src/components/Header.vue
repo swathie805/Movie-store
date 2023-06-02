@@ -42,5 +42,4 @@ button:hover {
   color: rgb(1, 1, 48);
   filter: drop-shadow(-10px 10px 10px #7c83a5)
 }
-
 </style>
