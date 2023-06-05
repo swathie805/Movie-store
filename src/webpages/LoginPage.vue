@@ -5,7 +5,6 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 const username = ref("");
 const password = ref("");
-const error = ref("");
 
 const login = () => {
     if (username.value === "tmdb" && password.value === "movies") {
