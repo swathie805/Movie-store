@@ -16,8 +16,8 @@ const toggleModal = (id) => {
 </script>
 
 <template>
-  <div>
-    <button @click="router.push('/cart')">Cart</button>
+  <div id="background">
+    <button id="btn"  @click="router.push('/cart')">Cart</button>
     <div v-if="store.movies" class="tiles">
       <div v-for="movie in store.movies" class="tile">
         <img
@@ -31,6 +31,12 @@ const toggleModal = (id) => {
 </template>
 
 <style scoped>
+#background {
+    background-color: rgb(1,1,48);
+    top: 0;
+    left: 0;
+    position: fixed;
+}
 .tiles {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -38,5 +44,17 @@ const toggleModal = (id) => {
 
 img {
   width: 300px;
+}
+
+button {
+    border-radius: 5px;
+    width: 70px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: #cddcff;
+    color: rgb(1, 1, 48);
+    filter: drop-shadow(-10px 10px 10px #7c83a5)
 }
 </style>
