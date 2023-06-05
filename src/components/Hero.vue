@@ -8,7 +8,7 @@
         </div>
         <div class="hero-text">
             <h2>Get with the trending movies and add them to your cart</h2>
-            <p>This is a movie website that displays trending movies along with content related to the film and a cart to purchase the movie. Enjoy </p>
+            <p>This is a movie website that displays trending movies along with content related to the film and a cart to purchase the movie. Enjoy!! </p>
         </div>
     </div>
 </template>
@@ -29,12 +29,14 @@ img {
 
 h2 {
     font-size: 40px;
+    padding: 15px;
 }
 
 .hero-text {
     position: absolute;
-    top: 225px;
-    left: 40px;
+    top: 280px;
+    left: 125px;
+    padding: 70px 0;
     text-align: center;
     color: white;
     inline-size: 300px;

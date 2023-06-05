@@ -14,14 +14,16 @@ const router = useRouter();
 <style scoped>
 h1 {
   margin: auto;
+  font-size: 60px;
 }
 
 button {
   background-color: transparent;
   color: white;
   height: 70px;
-  width: 70px;
+  width: 80px;
   border: transparent;
+  font-size: 20px;
 }
 
 button:hover {
@@ -31,7 +33,6 @@ button:hover {
 }
 
 .header-container {
-  /* margin: 10px; */
   background-color:  rgb(1, 1, 48);
   color: white;
   display: flex;
