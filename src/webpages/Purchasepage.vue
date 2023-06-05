@@ -37,6 +37,6 @@ const toggleModal = (id) => {
 }
 
 img {
-  width: 200px;
+  width: 300px;
 }
 </style>
