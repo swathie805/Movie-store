@@ -13,6 +13,8 @@ const toggleModal = (id) => {
   showModal.value = !showModal.value;
   selectedRecordId.value = id;
 };
+
+console.log(store.movies);
 </script>
 
 <template>
