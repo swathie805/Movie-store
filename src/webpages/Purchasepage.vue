@@ -13,13 +13,11 @@ const toggleModal = (id) => {
   showModal.value = !showModal.value;
   selectedRecordId.value = id;
 };
-
-console.log(store.movies);
 </script>
 
 <template>
   <div id="background">
-    <button id="btn"  @click="router.push('/cart')">Cart</button>
+    <button id="btn" @click="router.push('/cart')">Cart</button>
     <div v-if="store.movies" class="tiles">
       <div v-for="movie in store.movies" class="tile">
         <img
@@ -34,10 +32,10 @@ console.log(store.movies);
 
 <style scoped>
 #background {
-    background-color: rgb(1,1,48);
-    top: 0;
-    left: 0;
-    position: fixed;
+  background-color: rgb(1, 1, 48);
+  top: 0;
+  left: 0;
+  position: fixed;
 }
 .tiles {
   display: grid;
@@ -51,14 +49,14 @@ img {
 }
 
 button {
-    border-radius: 5px;
-    width: 70px;
-    height: 45px;
+  border-radius: 5px;
+  width: 70px;
+  height: 45px;
 }
 
 button:hover {
-    background-color: #cddcff;
-    color: rgb(1, 1, 48);
-    filter: drop-shadow(-10px 10px 10px #7c83a5)
+  background-color: #cddcff;
+  color: rgb(1, 1, 48);
+  filter: drop-shadow(-10px 10px 10px #7c83a5);
 }
 </style>

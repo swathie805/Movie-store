@@ -23,11 +23,11 @@ store.movies = movies.results.map((movie) => {
 </script>
 
 <template>
-    <div>
-        <Header />
-        <Hero />
-        <Footer />
-    </div>
+  <div>
+    <Header />
+    <Hero />
+    <Footer />
+  </div>
 </template>
 
 <style scoped></style>

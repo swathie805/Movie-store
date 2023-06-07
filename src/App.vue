@@ -1,5 +1,4 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <Suspense>
@@ -7,5 +6,4 @@
   </Suspense>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
