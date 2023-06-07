@@ -17,13 +17,13 @@ const store = useStore();
 
 <style>
 .cart-container {
-  display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(1, 1, 48);
 }
 
 .items {
+  float: left;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 40px;
@@ -31,6 +31,11 @@ const store = useStore();
   width: 500px;
   background-color: rgba(210, 237, 252, 0.3);
   border-radius: 10px;
+}
+
+.cart-container::after {
+  display: table;
+  clear: both;
 }
 
 h1 {
